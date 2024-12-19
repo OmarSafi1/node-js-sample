@@ -25,5 +25,9 @@
   "contributors": [
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
+  "scripts": {
+  "test": "mocha"
+  },
+
   "license": "MIT"
 }
