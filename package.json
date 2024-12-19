@@ -26,8 +26,8 @@
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
   "scripts": {
-  "test": "mocha"
-  },
+  "test": "mocha './*.test.js'"
+  }
 
   "license": "MIT"
 }
