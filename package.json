@@ -3,9 +3,6 @@
   "version": "0.2.0",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
     "express": "^4.13.3"
   },
@@ -26,8 +23,8 @@
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
   "scripts": {
-  "test": "mocha './*.test.js'"
-  }
-
+    "start": "node index.js",
+    "test": "mocha './*.test.js'"
+  },
   "license": "MIT"
 }
