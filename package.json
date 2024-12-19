@@ -23,8 +23,10 @@
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha './*.test.js'"
-  },
+  "start": "node index.js",
+  "test": "nyc mocha './*.test.js'",
+  "coverage": "nyc report --reporter=text-lcov > coverage.lcov && coveralls < coverage.lcov"
+}
+,
   "license": "MIT"
 }
